@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "e-Ukraine";
+  src:
+    url("/fonts/e-Ukraine/e-ukraine-thin.woff2") format("woff2"),
+    url("/fonts/e-Ukraine/e-ukraine-thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "e-Ukraine";
+  src:
+    url("/fonts/e-Ukraine/e-ukraine-ultralight.woff2") format("woff2"),
+    url("/fonts/e-Ukraine/e-ukraine-ultralight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "e-Ukraine";
+  src:
+    url("/fonts/e-Ukraine/e-ukraine-light.woff2") format("woff2"),
+    url("/fonts/e-Ukraine/e-ukraine-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "e-Ukraine";
+  src:
+    url("/fonts/e-Ukraine/e-ukraine-regular.woff2") format("woff2"),
+    url("/fonts/e-Ukraine/e-ukraine-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "e-Ukraine";
+  src:
+    url("/fonts/e-Ukraine/e-ukraine-medium.woff2") format("woff2"),
+    url("/fonts/e-Ukraine/e-ukraine-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "e-Ukraine";
+  src:
+    url("/fonts/e-Ukraine/e-ukraine-bold.woff2") format("woff2"),
+    url("/fonts/e-Ukraine/e-ukraine-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
