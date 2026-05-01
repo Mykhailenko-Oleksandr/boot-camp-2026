@@ -6,7 +6,8 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #000000;
+  --primary: #000000;
+  --prpl-100: #e7eef3;
 }
 
 /* =====================================
@@ -21,8 +22,13 @@ body {
   font-family: "e-Ukraine", sans-serif;
   font-weight: 300;
   line-height: 150%;
-  color: var(--foreground);
+  color: var(--primary);
   background: var(--background);
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 
   &.noScroll {
     overflow: hidden;

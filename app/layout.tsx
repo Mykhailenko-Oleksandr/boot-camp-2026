@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "@/components/Header/Header";
 
 export const metadata: Metadata = {
   title: "Головна сторінка Держстат | Державна служба статистики України",
@@ -16,7 +17,11 @@ export default function RootLayout({
     <html
       lang="uk"
       className="">
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body>
+        <Header />
+
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
