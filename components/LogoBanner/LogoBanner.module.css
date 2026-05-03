@@ -1,0 +1,22 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    gap: 24px;
+  }
+
+  .iconTop {
+    width: 80px;
+    height: 80px;
+  }
+
+  .iconBottom {
+    width: 400px;
+    height: 85px;
+  }
+}

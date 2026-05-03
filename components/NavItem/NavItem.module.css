@@ -60,3 +60,35 @@
   font-size: 13px;
   line-height: 18px;
 }
+
+@media only screen and (min-width: 1280px) {
+  .navItem {
+    width: unset;
+  }
+
+  .navBtn {
+    width: unset;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .navBtn,
+  .navLink {
+    min-width: unset;
+    padding: 8px 4px;
+
+    line-height: 16px;
+
+    &:hover,
+    &:focus {
+      border-bottom: 2px solid var(--primary, #000000);
+    }
+  }
+
+  .subList {
+    display: none;
+  }
+}

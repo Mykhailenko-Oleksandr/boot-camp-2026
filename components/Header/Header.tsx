@@ -3,6 +3,7 @@
 import { useState } from "react";
 import css from "./Header.module.css";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import TopNavigation from "../TopNavigation/TopNavigation";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,6 +22,8 @@ export default function Header() {
             <use href="/sprite.svg#burger"></use>
           </svg>
         </button>
+
+        <TopNavigation />
 
         {isMenuOpen && (
           <BurgerMenu
