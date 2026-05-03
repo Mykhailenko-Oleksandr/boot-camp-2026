@@ -1,0 +1,83 @@
+.box {
+}
+
+.tabsBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+  width: 268px;
+  height: 46px;
+  background-color: #d0e2fe;
+  border-radius: 30px;
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.tabBtn {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  border-radius: 30px;
+  padding: 8px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+
+  & svg {
+    fill: #000;
+
+    &.starIcon {
+      fill: none;
+      stroke: #000;
+    }
+  }
+}
+
+.currentTab {
+  background-color: #000;
+  color: #fff;
+
+  & svg {
+    fill: #fff;
+
+    &.starIcon {
+      stroke: #fff;
+    }
+  }
+}
+
+.searchBox {
+  margin: 0 auto;
+}
+
+.exampleBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+.exampleList {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.text,
+.link {
+  display: block;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.link {
+  border-bottom: 1px solid var(--primary, #000000);
+}
